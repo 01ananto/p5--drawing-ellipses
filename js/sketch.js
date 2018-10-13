@@ -6,5 +6,7 @@ function setup() {
 }
 
 function draw() {
+    noStroke();
+    fill(255, 165, 0);
     ellipse(50, 50, 100);
 }
